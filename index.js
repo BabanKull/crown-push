@@ -28,10 +28,10 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Zexxy')} - Credit : @Zexxy & @Zexxy
+By : ${chalk.bold('BabanKull')} - Credit : @BabanKull & @BabanKull
 `);
 
-  const auth = rs.question('Enter Authentication Code! : ');
+  const auth = rs.question('Masukin Auth Lu! : ');
   console.log('');
 
   while (true) {
@@ -39,7 +39,7 @@ By : ${chalk.bold('Zexxy')} - Credit : @Zexxy & @Zexxy
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Auth Lu Erorr`));
       break;
 
     } else if (result.includes('User')) {
@@ -54,7 +54,7 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
       await sleep(6500);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account has been Banned`));
+      console.log(chalk.bgRed(`Mampus Kontol Akun Lu Ken Banned`));
      break;
     }
   }
